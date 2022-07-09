@@ -6,7 +6,7 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'result/**'
+      - '**/result/**'
 # Env variable
 env:
   DOCKER_USER: ${{secrets.DOCKER_USER}}
