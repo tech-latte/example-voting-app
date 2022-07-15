@@ -5,6 +5,8 @@ name: CI
 on:
   push:
     branches: [ master ]
+    paths:
+      - result/**
 defaults:
   run:
     working-directory: result
