@@ -4,9 +4,8 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
-    paths:
-    - '**/result/**'
+    branches: [ master ]
+    
 # Env variable
 env:
   DOCKER_USER: ${{secrets.DOCKER_USER}}
